@@ -10,6 +10,7 @@ body{
   place-items: center;
   box-sizing: border-box;
   min-height: 100vh;
+  margin: 0;
   padding: 40px;
   background-color: var(--Slate-300);
   font-size: 15px;
@@ -19,6 +20,7 @@ body{
 .card{
   box-sizing: border-box;
   width: 100%;
+  max-width: 350px;
   margin: 0;
   padding: 20px;
   border-radius: 20px;
@@ -48,11 +50,4 @@ body{
 
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
-
-/* desktop */
-@media (min-width: 1440px) {
-  .card{
-    width: 350px;
-  }
 }
